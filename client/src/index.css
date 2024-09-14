@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap");
 
 :root {
-  font-family: 'Inter Tight', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: "Inter Tight", system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
   color-scheme: light dark;
@@ -13,13 +13,13 @@
 }
 
 /* webkit solution */
-::-webkit-input-placeholder { 
-  text-align:right; 
+::-webkit-input-placeholder {
+  text-align: right;
 }
 
 /* mozilla solution */
-input:-moz-placeholder { 
-  text-align:right; 
+input:-moz-placeholder {
+  text-align: right;
 }
 
 a {
@@ -32,7 +32,7 @@ a:hover {
 }
 
 body {
-  background: #ECF0F1;
+  background: #ecf0f1;
   background-size: cover;
   background-repeat: no-repeat no-repeat;
   background-position: center center;
@@ -54,7 +54,7 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: yellow;
   cursor: pointer;
   transition: border-color 0.25s;
 }
@@ -140,7 +140,7 @@ tbody tr:nth-child(odd) {
   text-align: center;
   font-weight: 500;
   width: 33%;
-  height: 90vh; 
+  height: 90vh;
   border: 1px solid rgba(0, 0, 0, 0.2);
   margin: 5px;
   padding: 5px;
@@ -154,8 +154,16 @@ tbody tr:nth-child(odd) {
   background-color: #b864c4;
 }
 
+.inprogress h2 {
+  color: rgb(255, 254, 254);
+}
+
 .done {
   background-color: #732381;
+}
+
+.done h2 {
+  color: white;
 }
 
 .ticket-card {
@@ -179,7 +187,6 @@ tbody tr:nth-child(odd) {
   margin-left: auto;
 }
 
-
 .form {
   width: 60%;
   height: 80%;
@@ -191,13 +198,13 @@ tbody tr:nth-child(odd) {
   align-items: center;
 }
 
-.form > h1, .form > label {
+.form > h1,
+.form > label {
   color: yellow;
 }
 
 .form > input {
   width: 200px;
-  
 }
 
 .form > label {
@@ -241,7 +248,6 @@ tbody tr:nth-child(odd) {
   align-items: center;
   justify-content: center;
 }
-
 
 @media (prefers-color-scheme: light) {
   :root {

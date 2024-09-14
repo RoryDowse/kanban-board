@@ -76,7 +76,7 @@ const EditTicket = () => {
                 value={ticket.description || ''}
                 onChange={handleTextAreaChange}
               />
-              <button type='submit'>Submit Form</button>
+              <button type='submit'><a>Submit Form</a></button>
             </form>
           ) : (
             <div>Issues fetching ticket</div>
